@@ -23,13 +23,10 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "discord.js": "^12.4.1",
-    "dotenv": "^8.2.0",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "node-fetch": "^2.6.1",
-    "node-kitsu": "^1.1.1",
     "nodeactyl-v1-support": "^1.1.2",
-    "relevant-urban": "^2.0.0",
     "require-text": "0.0.1",
     "sqlite": "^4.0.15",
     "sqlite3": "^5.0.0"
