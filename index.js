@@ -1,6 +1,5 @@
 const start = Date.now()
 console.log('Starting the bot...');
-require('dotenv').config();
 const { Token } = require("./settings.json");
 const { readdirSync } = require('fs');
 const { join } = require('path');
