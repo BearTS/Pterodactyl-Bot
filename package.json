@@ -26,7 +26,7 @@
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "node-fetch": "^2.6.1",
-    "nodeactyl-v1-support": "^1.1.2",
+    "nodeactyl-v1-support": "^1.2.5",
     "require-text": "0.0.1",
     "sqlite": "^4.0.15",
     "sqlite3": "^5.0.0"
