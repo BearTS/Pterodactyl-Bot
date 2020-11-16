@@ -3,8 +3,4 @@
 
  You can change data in `settings.json` file
 
-Credits :
-
-[EiskalterFreund](https://github.com/EiskalterFreund/nodeactyl-v1-support) for porting nodeactyl to work with Panel v1
-
-[Sakurajimai#6742](https://github.com/maisans-maid/Mai) for the command handler
+Using the module [Nodeactylv1](https://github.com/bearts/nodeactylv1)
