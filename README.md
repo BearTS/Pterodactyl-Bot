@@ -7,3 +7,5 @@
  You can change data in `settings.json` file
 
 Using the module [Nodeactylv1](https://github.com/bearts/nodeactylv1)
+
+Command Handler From [Mai](https://github.com/maisans-maid/mai)
