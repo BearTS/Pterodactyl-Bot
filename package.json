@@ -18,8 +18,12 @@
      "Nodeactyl",
     "FalixNodes"
    ],
-   "author": "Bear#3437",
-   "license": "MIT",
+	"author": "Bear#3437 <bear@tamako.tech>",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/BearTS/Pterodactyl-v1-DiscordBot/issues"
+	},
+	"homepage": "https://github.com/BearTS/Pterodactyl-v1-DiscordBot#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "discord.js": "^12.4.1",
