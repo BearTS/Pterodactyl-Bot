@@ -2,7 +2,7 @@ require('moment-duration-format')
 const { MessageEmbed, Collection } = require('discord.js')
 const CooldownManager = require('../struct/CooldownManager')
 const { duration } = require('moment')
-const { addXP, PermissionsCheck, CooldownsCheck } = require('../helper')
+const { PermissionsCheck, CooldownsCheck } = require('../helper')
 
 module.exports = async ( client, message ) => {
 

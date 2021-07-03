@@ -1,4 +1,4 @@
-const nodeactyl = require('nodeactylv1')
+const nodeactyl = require('nodeactyl')
 const Client = nodeactyl.Client
 const Discord = require("discord.js")
 const settings = require("../../settings.json")

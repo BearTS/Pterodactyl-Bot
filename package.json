@@ -1,6 +1,6 @@
 {
   "name": "PterodactylBot",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A bot to control pterodactyl panel",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
     "node-fetch": "^2.6.1",
-    "nodeactylv1": "^1.0.1",
+    "nodeactyl": "^3.0.4",
     "require-text": "0.0.1",
     "sqlite": "^3.0.6",
     "sqlite3": "^4.1.1"

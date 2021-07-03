@@ -9,7 +9,7 @@ module.exports = class TamakoClient extends Client{
         this.commands = new CommandManager({ groups: commandgroups })
         this.config = { prefix, token, owners, commanddir: commandgroups, pings: {},
             github: 'https://github.com/BearTS/Pterodactyl-v1-DiscordBot',
-            website: 'https://tamakobot.tk'
+            website: 'https://tamako.tech'
          }
     }
 

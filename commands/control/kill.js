@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 const settings = require("../../settings.json")
-const nodeactyl = require('nodeactylv1')
+const nodeactyl = require('nodeactyl')
 const Client = nodeactyl.Client
 const sql = require("sqlite")
 sql.open("./users.sqlite")
