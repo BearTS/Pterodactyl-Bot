@@ -5,6 +5,6 @@
 Currently Not functioning
 
 ### I will rewrite this after January 
-
+(can only be done if someone is willing to provide me access to a pterodactyl panel)
 
 Contact me on Discord (Bear#3437) 
