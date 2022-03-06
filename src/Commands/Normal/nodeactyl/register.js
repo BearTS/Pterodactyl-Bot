@@ -7,7 +7,7 @@ module.exports = {
     ownerOnly: false,
     userPermissions: ['SEND_MESSAGES'],
     clientPermissions: ['SEND_MESSAGES', 'EMBED_LINKS'],
-    category: 'Nodeactyl',
+    category: 'Client Panel',
     usage: '',
     run: async (client, message, args, Discord) => {
         try {

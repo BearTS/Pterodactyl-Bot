@@ -8,7 +8,7 @@ module.exports = {
     ownerOnly: false,
     userPermissions: ['SEND_MESSAGES'],
     clientPermissions: ['SEND_MESSAGES', 'EMBED_LINKS'],
-    category: 'Nodeactyl',
+    category: 'Client Panel',
     usage: '[server id]',
     run: async (client, message, [ serverID ], Discord) => {
         try {
@@ -33,3 +33,11 @@ module.exports = {
         }
     }
 };
+
+/**
+ * @INFO
+ * Bot Coded by Bear#3437 | https://github.com/bearts
+ * @INFO
+ * Tamako Tech | https://tamako.tech/
+ * @INFO
+ */
