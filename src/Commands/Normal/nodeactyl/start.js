@@ -2,21 +2,27 @@ const Nodeactyl = require('nodeactyl');
 const User = require('../../../Model/User');
 
 module.exports = {
-    name: 'kill',
+    name: 'start',
     aliases: [],
-    description: 'kill a server',
+    description: 'Start a server',
     ownerOnly: false,
     userPermissions: ['SEND_MESSAGES'],
     clientPermissions: ['SEND_MESSAGES', 'EMBED_LINKS'],
-    category: 'Nodeactyl',
+    category: 'Client Panel',
     usage: '[server id]',
     run: async (client, message, [ serverID ], Discord) => {
         try {
-            const user = await User.findById(message.author.id);
-            if (!user) return message.reply(`You are not registered!\nif you want to register, please use \`${process.env.PREFIX}register\` command`);
+            const user = await User.findOne({
+                where: {
+                    userID: message.author.id
+                }
+            });
+            if (!user) {
+                return message.channel.send('You are not registered!');
+            }
             const panel = new Nodeactyl.NodeactylClient(process.env.HOST, user.data.clientToken);
-            panel.killServer(serverID).then(() => {
-                return message.channel.send('Server killed!');
+            panel.startServer(serverID).then(() => {
+                return message.channel.send('Server started successfully!');
             }).catch(err => {
                 if (err === 404) return message.channel.send('Server not found!');
                 return message.channel.send(`Error: ${err}`);

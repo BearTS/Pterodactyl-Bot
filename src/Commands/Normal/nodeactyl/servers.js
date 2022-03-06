@@ -8,7 +8,7 @@ module.exports = {
     ownerOnly: false,
     userPermissions: ['SEND_MESSAGES'],
     clientPermissions: ['SEND_MESSAGES', 'EMBED_LINKS'],
-    category: 'Nodeactyl',
+    category: 'Client Panel',
     usage: '',
     run: async (client, message, args, Discord) => {
         try {
@@ -32,7 +32,7 @@ module.exports = {
                     **Databases:** ${server.feature_limits.databases}\n
                     **Allocations:** ${server.feature_limits.allocations}`, true);
             });
-            message.channel.send({ embeds: [embed] });
+            return message.channel.send({ embeds: [embed] });
         } catch (err) {
             if (err === 403) return message.reply('Invalid API Token!');
             return message.reply({ content: `Let my developer know in the support server https://discord.gg/dDnmY56 or using \`${process.env.PREFIX}feedback\` command`, embeds: [ 
