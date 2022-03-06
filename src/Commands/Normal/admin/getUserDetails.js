@@ -16,7 +16,6 @@ module.exports = {
             if (!user.isAdmin) return message.reply('You are not registered as an admin!');
             const panel = new Nodeactyl.NodeactylApplication(process.env.HOST, user.data.ApplicationToken);
             panel.getUserDetails(id).then(async (data) => {
-                console.log(data);
                 const embed = new Discord.MessageEmbed()
                     .setColor('#0099ff')
                     .setTitle('User Details');
