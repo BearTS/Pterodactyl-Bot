@@ -1,10 +1,10 @@
+
+## License
+<br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a> along with Common Clause
+
 # Pterodactyl-v1-bot-Discord
-[![Online](https://img.shields.io/discord/744871453060759682?color=%237289DA&label=Support&logo=discord&logoColor=white)](https://support.tamako.tech/)
-[![License](https://img.shields.io/github/license/BearTS/Pterodactyl-v1-DiscordBot?color=pink&label=License)](https://github.com/BearTS/Pterodactyl-v1-DiscordBot/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--ND%204.0-orange)](https://github.com/BearTS/Pterodactyl-v1-DiscordBot/blob/master/LICENSE)
 
-Currently Not functioning
+A Fully Functional Discord bot For controling Pterodactyl Panel V1
 
-### I will rewrite this after January 
-(can only be done if someone is willing to provide me access to a pterodactyl panel)
-
-Contact me on Discord (Bear#3437) 
+You can change data in `settings.json` file
